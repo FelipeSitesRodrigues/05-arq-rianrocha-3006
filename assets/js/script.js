@@ -18,11 +18,16 @@ var _supabase = window.supabase.createClient(
 const WA_LINK = 'https://wa.me/5511994586173?text=' + encodeURIComponent('Olá Rian! Gostaria de conversar sobre um projeto.');
 
 const PROJECTS = [
-  { img: 'assets/images/portfolio-4.png', cat: 'INTERIORES',  title: 'Suíte Casal'        },
-  { img: 'assets/images/portfolio-5.png', cat: 'INTERIORES',  title: 'Quarto Infantil'    },
-  { img: 'assets/images/portfolio-6.png', cat: 'INTERIORES',  title: 'Quarto Bebê'        },
+  { img: 'assets/images/portfolio-1.png', cat: 'RESIDENCIAL', title: 'Área de Lazer'      },
   { img: 'assets/images/portfolio-2.png', cat: 'INTERIORES',  title: 'Living Integrado'   },
-  { img: 'assets/images/portfolio-1.png', cat: 'RESIDENCIAL', title: 'Área de Lazer'      }
+  { img: 'assets/images/portfolio-4.png', cat: 'INTERIORES',  title: 'Suíte Casal'        },
+  { img: 'assets/images/portfolio-6.png', cat: 'INTERIORES',  title: 'Quarto Bebê'        },
+  { img: 'assets/images/portfolio-5.png', cat: 'INTERIORES',  title: 'Quarto Infantil'    },
+  { img: 'assets/images/portifolio-7.jpeg',  cat: 'INTERIORES',  title: 'Sala de Estar'   },
+  { img: 'assets/images/portifolio-8.jpeg',  cat: 'INTERIORES',  title: 'Cozinha'         },
+  { img: 'assets/images/portifolio-9.jpeg',  cat: 'INTERIORES',  title: 'Cozinha Gourmet' },
+  { img: 'assets/images/portifolio-10.jpeg', cat: 'RESIDENCIAL', title: 'Piscina e Lazer' },
+  { img: 'assets/images/portifolio-11.jpeg', cat: 'COMERCIAL',   title: 'Escritório'      }
 ];
 
 const TESTIMONIALS_INITIAL = [
